@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="126.0" prefWidth="225.0" xmlns="http://javafx.com/javafx/" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.learningfx.NewBlockController">
+   <children>
+      <TextArea layoutX="11.0" layoutY="24.0" prefHeight="30.0" prefWidth="204.0" />
+      <Button layoutX="12.0" layoutY="73.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="107.0" text="Add Photo">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="125.0" layoutY="73.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="41.0" text="ALT">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="173.0" layoutY="73.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="41.0" text="INS">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Circle id="giveLineConnector" fill="#917d94" layoutX="119.0" layoutY="112.0" onDragDetected="#gradFromDetected" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle id="getLineConnector" fill="#7e8994" layoutX="119.0" layoutY="14.0" onMouseDragEntered="#DropEnded" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
